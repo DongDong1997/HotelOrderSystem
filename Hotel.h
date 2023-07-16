@@ -71,6 +71,12 @@ public:
 		return bNum;
 	}
 
+	void showHotel()
+	{
+		cout << id << "\t" << name << "\t\t"<< city << "\t" << hNum << "\t\t" << hPri << "\t";
+		cout << bNum << "\t\t" << bPri << endl;
+	}
+
 };
 
 #endif
